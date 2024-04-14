@@ -10,12 +10,22 @@ html {
 p {
     margin: 0;
 }
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
+.p_v{
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #656E7F;
+    
 }
+.cards_h {
+    float: left;
+}
+
+.cards_v{
+    float:right;
+}
+
 .card__horizontal {
+    margin: 12px 0px 12px 0px;
     border: 1px solid rgb(243, 243, 243);
     border-radius: 30px;
     width: 400px;
@@ -24,10 +34,12 @@ p {
 }
 
 .card__vertical {
+    margin: 12px 0px 12px 0px;
+    float: right;
     border: 1px solid rgb(243, 243, 243);
     border-radius: 30px;
     width: 400px;
-    height: 500px;
+    height: 512px;
     background-color:rgb(243, 243, 243)
 }
 .card__header {
@@ -85,7 +97,7 @@ p {
 }
 
 .button:active {
-    background-color:rgb(255, 238, 139);
+    background-color:lightslategrey;
     color: black;
 }
 .imagem{
