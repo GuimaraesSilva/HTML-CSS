@@ -1,0 +1,53 @@
+.Field_label{
+    font-size: 12px;
+    color: rgba(62, 62, 60, 1);
+}
+.form--input {
+    margin: 10px 0 10px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border: 2px solid #eee;
+    border-radius: 4px;
+}
+
+.input--field {
+    border: 0;
+    background: transparent;
+    font-size: 18px;
+    line-height: 30px;
+    outline: 0;
+    display: block;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #706E6B;
+}
+
+.padding--regular {
+    padding: 5px 10px 5px 10px;
+}
+
+.padding--icon {
+    padding: 5px 10px 5px 40px;
+}
+
+.icon {
+    width: 16px;
+    color: rgba(176, 173, 171, 1);
+     top: 0;
+    font-size: 25px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input--container {
+    margin-top: 30px;
+}

@@ -1,0 +1,116 @@
+.button__flex{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+button{    
+    border: 0;
+    border-radius: 5px;
+    width: 66px;
+    height: 32px;
+}
+.button--blue {
+    display: block;
+    background-color: rgba(0, 112, 210, 1);
+    font-size: 13px;
+    color: rgba(255, 255, 255, 1);
+}
+.button--b, 
+.blue--hover,
+.blue--active,
+.blue {
+    display: block;
+    background-color: rgba(0, 112, 210, 1);
+    font-size: 13px;
+    color: rgba(255, 255, 255, 1);
+    width: 90px;
+    height: 32px;
+}
+.blue--hover:hover,
+.blue--active:active {
+    background-color: rgba(0, 95, 178, 1);
+}
+.button--white {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 112, 210, 1);
+    font-size: 13px;
+    color: rgba(0, 112, 210, 1);
+}
+.button--w, 
+.white--hover,
+.white--active,
+.white {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 112, 210, 1);
+    font-size: 13px;
+    color: rgba(0, 112, 210, 1);
+    width: 90px;
+    height: 32px;
+}
+.white--hover:hover,
+.white--active:active {
+    background-color:rgba(244, 246, 249, 1);
+}
+.button--red {
+    background-color: rgba(194, 57, 52, 1);
+    font-size: 13px;
+    color: rgba(255, 255, 255, 1);
+}
+.button--r, 
+.red--hover,
+.red--active,
+.red {
+    background-color: rgba(194, 57, 52, 1);
+    font-size: 13px;
+    color: rgba(255, 255, 255, 1);
+    width: 90px;
+    height: 32px;
+}
+.red--hover:hover,
+.red--active:active {
+    background-color: rgba(166, 26, 20, 1);
+}
+.button--green {
+    background-color: rgba(75, 202, 129, 1);
+    font-size: 13px;
+    color: rgba(255, 255, 255, 1);
+}
+.button--g,
+.green--hover,
+.green--active,
+.green {
+    background-color: rgba(75, 202, 129, 1);
+    font-size: 13px;
+    color: rgba(255, 255, 255, 1);
+    width: 90px;
+    height: 32px;
+}
+.green--hover:hover,
+.green--active:active {
+    background-color: rgba(4, 132, 75, 1);
+}
+.button--blue:disabled,
+.blue:disabled,
+.button--red:disabled,
+.red:disabled,
+.button--green:disabled,
+.green:disabled
+{
+    background-color: rgba(201, 199, 197, 1);
+}
+.button--white:disabled,
+.white:disabled
+{
+    border-color: rgba(221, 219, 218, 1);
+    color: rgba(221, 219, 218, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+label{
+    align-content: center;
+}
+.fa-solid{
+    align-items: center;
+    width: 16px;
+    height: 16px;
+}
+
