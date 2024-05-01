@@ -19,7 +19,9 @@ button{
 .blue--hover,
 .blue--active,
 .blue {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: rgba(0, 112, 210, 1);
     font-size: 13px;
     color: rgba(255, 255, 255, 1);
@@ -40,6 +42,9 @@ button{
 .white--hover,
 .white--active,
 .white {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(0, 112, 210, 1);
     font-size: 13px;
@@ -60,6 +65,9 @@ button{
 .red--hover,
 .red--active,
 .red {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: rgba(194, 57, 52, 1);
     font-size: 13px;
     color: rgba(255, 255, 255, 1);
@@ -79,6 +87,9 @@ button{
 .green--hover,
 .green--active,
 .green {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: rgba(75, 202, 129, 1);
     font-size: 13px;
     color: rgba(255, 255, 255, 1);
