@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+.html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.nav__bar {
+  background-color: rgb(255, 255, 255);
+  padding: 18px 35px 18px 35px;
+  max-width: 1500px;
+  font-size: 14px;
+  font-weight: 400;
+  border-bottom: 1px solid rgb(223, 223, 223);
+  display: flex;
+  justify-content: space-between;
+}
+.nav__bar .navbar__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.nav__bar .navbar__list .list--left, .nav__bar .navbar__list .list--right {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 42px;
+}
+.nav__bar .navbar__list .list--left .navbar__item, .nav__bar .navbar__list .list--right .navbar__item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 16.94px;
+  color: rgb(0, 0, 0);
+}
+
+.header {
+  max-width: 1500px;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+.header .header__container {
+  width: 765px;
+  height: 630px;
+  text-align: center;
+}
+.header .header__container .title {
+  margin: 0;
+  padding: 40px 0 20px 0;
+  font-size: 64px;
+  font-weight: 700;
+}
+.header .header__container .subtitle {
+  margin: 0;
+  padding: 0 10px 40px 10px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.header .header__container .button {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.header .header__container .button .button--set {
+  width: 126px;
+  height: 33px;
+  border: none;
+  background-color: rgb(0, 100, 218);
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.header .header__container .button .button--learn {
+  width: 108px;
+  height: 33px;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.header .header__container .center-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.header .header__container .center-content .video {
+  width: 460px;
+  height: 298px;
+}
+.header .header__container .center-content .button--watch {
+  width: 112px;
+  height: 33px;
+  padding: 8px 16px 8px 16px;
+  background-color: rgb(0, 100, 218);
+  border: none;
+  border-radius: 32px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 282px;
+}
+
+@media only screen and (max-width: 769px) {
+  .nav__bar .navbar__list .list--left {
+    display: none;
+  }
+  .nav__bar .navbar__list .list--right {
+    display: flex;
+    gap: 20px;
+  }
+}/*# sourceMappingURL=styles.css.map */

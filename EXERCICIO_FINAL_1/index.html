@@ -4,25 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
     <div class="nav">
         <nav class="nav__bar">
-            <div class="icon">
+            <div  class="navbar__list">
                 <img src="./landing-page/assets/logo.png" class="logo__icon" alt="icon"></img>
+
+                <div class="list--left">
+                    <span class="navbar__item">Pricing</span>
+                    <span class="navbar__item">About</span>
+                    <span class="navbar__item">Tutorials</span>
+                    <span class="navbar__item">Blog</span>
+                </div>
             </div>
-            <ul class="categories--right">
-                <li>Pricing</li>
-                <li>About</li>
-                <li>Tutorials</li>
-                <li>Blog</li>
-            </ul>
-            <ul class="categories--left">
-                <li>Sign in</li>
-                <li>Sign up</li>
-            </ul>
+            <div  class="navbar__list">
+                <div class="list--right">
+                    <span class="navbar__item">Sign in</span>
+                    <span class="navbar__item navbar--bg">Sign up</span>
+                </div>
+            </div>
         </nav>
     </div>
-    
+    <div class="header">
+        <div class="header__container">
+            <p class="title">Make your website wonderful</p>
+            <p class="subtitle">Our landing page template works on all devices, 
+                so you only have to set it up once, 
+                and get beautiful results forever.</p>
+            <div class="button">
+                <button class="button--set">Set a free trial</button>
+                <button class="button--learn">Learn More</button>
+            </div>   
+            <div class="center-content">
+                <video autoplay muted class="video">
+                    <source src="./landing-page/assets/video.mp4" />
+                </video>
+                <button class="button button--watch">Watch more</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
