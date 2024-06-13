@@ -8,62 +8,176 @@
 </head>
 <body>
     <div class="nav">
-        <nav class="nav__bar">
-            <div  class="navbar__list">
-                <img src="./landing-page/assets/logo.png" class="logo__icon" alt="icon"></img>
-                <div class="list--left">
-                    <span class="navbar__item">Pricing</span>
-                    <span class="navbar__item">About</span>
-                    <span class="navbar__item">Tutorials</span>
-                    <span class="navbar__item">Blog</span>
-                </div>
+        <div class="logo__category">
+            <div class="nav__logo">
+                <img src="./landing-page/assets/logo.png" alt="icon"></img>
             </div>
-            <div  class="navbar__list">
-                <div class="list--right">
-                    <span class="navbar__item">Sign in</span>
-                    <span class="navbar__item navbar--bg">Sign up</span>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <div class="header">
-        <div class="header__container">
-            <p class="title">Make your website wonderful</p>
-            <p class="subtitle">Our landing page template works on all devices, 
-                so you only have to set it up once, 
-                and get beautiful results forever.</p>
-            <div class="button">
-                <button class="button--set">Set a free trial</button>
-                <button class="button--learn">Learn More</button>
-            </div>   
-            <div class="center-content">
-                <video autoplay muted class="video">
-                    <source src="./landing-page/assets/video.mp4" />
-                </video>
-                <button class="button button--watch">Watch more</button>
-            </div>
+            <p class="category">Pricing</p>
+            <p class="category">About</p>
+            <p class="category">Tutorials</p>
+            <p class="category">Blog</p>
+        </div>
+        <div class="nav__log">
+            <button class="btn">Sign Up</button>
+            <button class="btn bkg--black">Sign Up</button>
         </div>
     </div>
+    <div class="section__intro">
+        <h2 class="intro__title">Make your website wonderful</h2>
+        <h4 class="intro__subtitle">Our landing page template works on all devices,
+             so you only have to set it up once, and get beautiful results forever.</h4>
+        <div class="intro__btns">
+            <button class="btn bkg--blue">Set a free trial</button>
+            <button class="btn bkg--black">Learn More</button>
+        </div>
+        <video autoplay muted loop src="./landing-page/assets/video.mp4" class="video" type="video/mp4"></video>
+        <button class="btn radius--blue">Watch More</button>
+
+    </div>
+
     <div class="vertical__bar"></div>
-    <div class="section__works">
-        <div class="body__container">
-            <p class="title">How Simple Works</p>
-            <p class="subtitle">Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                cillum dolore eu fugiat nulla pariatur excepteur sint 
-                occaecat cupidatat.</p>
-                <img src="./landing-page/assets/hero-image.png" />
+
+    <div class="section__about">
+        <h3 class="about__title">How Simple Works</h3>
+        <h5 class="about__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</h5>
+        <img src="./landing-page/assets/hero-image.png" />
+    </div>
+
+    <div class="section__solutions">
+        <h3 class="solutions__title">Explore the solutions</h3>
+        <h5 class="solutions__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</h5>
+        <div class="solutions__cards">
+            <div class="card">
+                <div class="card__img"></div>
+                <div class="card__title">Headless CMS</div>
+                <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            </div>
+            <div class="card">
+                <div class="card__img"></div>
+                <div class="card__title">Headless CMS</div>
+                <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            </div>
+            <div class="card">
+                <div class="card__img"></div>
+                <div class="card__title">Headless CMS</div>
+                <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            </div>
+            <div class="card">
+                <div class="card__img"></div>
+                <div class="card__title">Headless CMS</div>
+                <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            </div>
+            <div class="card">
+                <div class="card__img"></div>
+                <div class="card__title">Headless CMS</div>
+                <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            </div>
+            <div class="card">
+                <div class="card__img"></div>
+                <div class="card__title">Headless CMS</div>
+                <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            </div>
+        </div>
+        <div class="solutions__bkg__video">
+            <video autoplay muted loop>
+              <source src="./landing-page/assets/background.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
-    <div class="section__explore">
-        <div class="body__container">
-            <p class="title">Explore the solutions</p>
-            <p class="subtitle">Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                cillum dolore eu fugiat nulla pariatur excepteur sint 
-                occaecat cupidatat.</p>
-            <div class="cards">
-                <div class="card"></div>
+
+    <div class="section__articles">
+        <h5 class="articles__title">The most innovative businesses choose Simple</h5>
+        <div class="articles">
+            <div class="card__article card__active">Development</div>
+            <div class="card__article">Blockchain</div>
+            <div class="card__article">Nextjs</div>
+            <div class="card__article">Reactjs</div>
+        </div>
+        <div class="articles__cards">
+            <div class="article__single__card">
+                <div class="article__card__img"></div>
+                <div class="articles__components">
+                    <div class="article__component">Development</div>
+                    <div class="article__component article__component--active">Blockchain</div>
+                </div>
+                <div class="article__card__title">“How HubSpot saved 25% on developing costs by switching to Simple.”</div>
+                <div class="article__card__profile">
+                    <div class="article__card__avatar"></div>
+                    <div class="article__card__name">By Harry Potter</div>
+                </div>
             </div>
-            <div class="background"></div>
+            <div class="article__single__card">
+                <div class="article__card__img"></div>
+                <div class="articles__components">
+                    <div class="article__component">Development</div>
+                    <div class="article__component article__component--active">Blockchain</div>
+                </div>
+                <div class="article__card__title">“How HubSpot saved 25% on developing costs by switching to Simple.”</div>
+                <div class="article__card__profile">
+                    <div class="article__card__avatar"></div>
+                    <div class="article__card__name">By Harry Potter</div>
+                </div>
+            </div>
+            <div class="article__single__card">
+                <div class="article__card__img"></div>
+                <div class="articles__components">
+                    <div class="article__component">Development</div>
+                    <div class="article__component article__component--active">Blockchain</div>
+                </div>
+                <div class="article__card__title">“How HubSpot saved 25% on developing costs by switching to Simple.”</div>
+                <div class="article__card__profile">
+                    <div class="article__card__avatar"></div>
+                    <div class="article__card__name">By Harry Potter</div>
+                </div>
+            </div>
+            <div class="article__single__card">
+                <div class="article__card__img"></div>
+                <div class="articles__components">
+                    <div class="article__component">Development</div>
+                    <div class="article__component article__component--active">Blockchain</div>
+                </div>
+                <div class="article__card__title">“How HubSpot saved 25% on developing costs by switching to Simple.”</div>
+                <div class="article__card__profile">
+                    <div class="article__card__avatar"></div>
+                    <div class="article__card__name">By Harry Potter</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section_advertising">
+        <h4 class="advertising__title">Ready to get started?</h4>
+        <button class="btn advertising__button">Learn More</button>
+    </div>
+
+    <div class="footer">
+        <div class="column column--one">
+            <h6 class="footer__title">Subscribe</h6>
+            <div class="email__button">
+                <textarea id="email" name="email" placeholder="E-mail" required></textarea>
+                <button type="subscribe" class="btn bkg--black">Subscribe</button>
+            </div>
+            <h6 class="text__footer">Get the latest news and articles to your inbox every month.</h6>
+            
+        </div>
+        <div class="column column--two">
+            <h6 class="footer__title">Products</h6>
+            <h6 class="footer__title subtitle">Web Studio</h6>
+            <h6 class="footer__title subtitle">DynamicBox Flex</h6>
+            <h6 class="footer__title subtitle">Programming Forms</h6>
+            <h6 class="footer__title subtitle">Integrations</h6>
+            <h6 class="footer__title subtitle">Command-line</h6>
+        </div>
+        <div class="column column--three">
+            <h6 class="footer__title">Resources</h6>
+            <h6 class="footer__title subtitle">Web Studio</h6>
+            <h6 class="footer__title subtitle">DynamicBox Flex</h6>
+            <h6 class="footer__title subtitle">Programming Forms</h6>
+            <h6 class="footer__title subtitle">Integrations</h6>
+            <h6 class="footer__title subtitle">Command-line</h6>
+        </div>
+        <div class="column column--four">
+            <img src="./landing-page/assets/logo-full.png" alt="icon"></img>
         </div>
     </div>
 </body>
