@@ -14,29 +14,104 @@ body .navbar {
   justify-content: space-between;
   background-color: #FFFFFF;
 }
-body .logo {
+body .navbar .logo {
   width: 95px;
   height: 30px;
   margin-left: 20px;
   background-color: #E8E8E8;
   border-radius: 4px;
 }
-body .menu {
+body .navbar .menu {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
-body .menu li {
+body .navbar .menu li {
   padding: 0px 20px 0px 20px;
 }
-body .menu a {
+body .navbar .menu a {
   text-decoration: none;
   color: #000000;
   font-size: 14px;
 }
-body .menu a:hover {
+body .navbar .menu a .fas {
+  font-weight: 600;
+  color: #000000;
+  padding: 0px 5px 0px 5px;
+}
+body .navbar .menu a:hover {
   color: #E8E8E8;
+}
+body .container {
+  background-color: #fff;
+  padding: 50px 150px 0px 150px;
+}
+body h1 {
+  margin: 0;
+  font-size: 36px;
+  padding-bottom: 10px;
+}
+body .description {
+  width: 450px;
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+  padding-bottom: 30px;
+}
+body .products {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  row-gap: 40px;
+}
+body .products .product {
+  width: calc(33.333% - 5px);
+  background-color: #fff;
+}
+body .products .product .link {
+  text-decoration: none;
+}
+body .products .product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px 4px 0px 0px;
+}
+body .products .product h2 {
+  color: #000000;
+  margin: 0;
+  font-size: 14px;
+  padding: 12px 0 6px 5px;
+}
+body .products .product p {
+  margin: 0;
+  padding-left: 5px;
+  font-size: 12px;
+  color: #9C9C9C;
+}
+body .btn__see {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .btn__see .see-more {
+  width: 150px;
+  height: 50px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FCED70;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+body .btn__see .see-more:hover {
+  background-color: #ffe600;
 }
 body footer {
   width: 100%;
