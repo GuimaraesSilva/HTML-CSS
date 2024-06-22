@@ -173,40 +173,234 @@ body {
         }
     }
 
-// Definição de variáveis de cores (opcional)
     .container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #fff;
-    padding: 20px;
-    }
+        height: 575px;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        background-color: #fff;
+        padding: 80px 125px 0px 125px;
 
-    .dimensions {
-    margin-right: 40px;
+        .dimensions {
+            width: 475px;
 
-        h2 {
-            color: #3498db;
+            .description {
+                margin: 0;
+                padding: 0px 10px 10px 0px;
+                font-size: 28px;
+                width: 100%;
+                color: #131313;
+            }
+            .table__list{
+                font-size: 14px;
+                display: flex;
+                padding-top: 20px;
+
+                ul {
+                    list-style-type: none;
+                    padding: 0;
+
+                    .list__text {
+                    padding: 10px 150px 10px 0px;
+                    color: #9C9C9C;
+                    border-bottom: 1px solid #9C9C9C;
+                    }
+
+                    .list__value{
+                        padding: 10px 0px 10px 0px;
+                        color: #9C9C9C;
+                        border-bottom: 1px solid #9C9C9C;
+                    }
+                }
+            }
         }
 
-        ul {
-            list-style-type: none;
-            padding: 0;
-
-            li {
-            margin-bottom: 10px;
-            color: #333;
+        .sofa-image {
+            width: 60%;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                padding-top: 80px;
             }
         }
     }
 
-    .sofa-image {
-        img {
-            max-width: 100%;
-            height: auto;
+    .description-section {
+        margin: 0;
+        padding: 40px 125px 0px 125px;
+        color: #131313;
+
+        .title__about {
+            font-size: 28px;
+            padding-bottom: 12px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            padding-bottom: 40px;
+            margin: 0;
+        }
+
+        .features {
+            display: flex;
+            gap: 20px;
+
+            .feature {
+                width: 475px;
+                gap: 40px;
+
+                .custom__title, .adapt__title {
+                    font-size: 16px;
+                    font-weight: bolder;
+                    color: #131313;
+                    padding-bottom: 8px;
+                }
+
+                p {
+                    margin: 0;
+                    font-size: 16px;
+                    color: #131313;
+                    line-height: 1.4;
+                }
+            }
         }
     }
 
+    .key-features {
+        height: 245px;
+        padding: 40px 125px 0px 125px;
+      
+        p {
+            font-size: 24px;
+            margin: 0;
+            padding-bottom: 40px;
+        }
+      
+        .features-list {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+      
+            .feature {
+                overflow: hidden;
+                text-align: center;
+      
+                img {
+                    object-fit: cover;
+                    max-width: 140px;
+                    margin-bottom: 10px;
+                }
+      
+                p {
+                    font-size: 16px;
+                    font-weight: bolder;
+                    margin: 0;
+                }
+          }
+        }
+    }
+
+    .durable-section {
+        margin: 0;
+        padding: 100px 125px 0px 125px;
+        display: flex;
+        gap: 20px;
+            
+        .durable-video {
+            width: 45%;
+            overflow: hidden;
+            video {
+                object-fit: cover;
+                height: auto;
+            }
+        }
+    
+        .durable-content {
+            width: 55%;
+            
+            h2 {
+                margin: 0;
+                font-size: 36px;
+                font-weight: normal;
+                padding-bottom: 40px;
+            }
+    
+            p {
+                margin: 0;
+                font-size: 18px;
+                line-height: 1.5;
+                padding-bottom: 40px;
+            }
+    
+            .durable-details {
+                display: flex;
+                gap: 10px;
+    
+                .detail {
+                    width: 100%;
+                    h3 {
+                        margin: 0;
+                        padding-bottom: 5px;
+                        font-size: 16px;
+                    }
+    
+                    p {
+                        margin: 0;
+                        font-size: 14px;
+                        color: #555;
+                    }
+                }
+            }
+        }
+    }
+
+    .recommend__products{
+        padding: 60px 125px 80px 125px; 
+
+        .recommend{
+            font-size: 36px;
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 30px;
+
+            
+            .product {
+                width: calc(33.333% - 20px);
+                background-color: #fff;
+                
+                .link{
+                    text-decoration: none;
+                }
+
+                img {
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 4px 4px 0px 0px;
+                }
+                
+                h2 {
+                    color: #000000;
+                    margin: 0;
+                    font-size: 14px;
+                    padding: 12px 0 6px 5px;
+                }
+                        
+                p {
+                    margin: 0;
+                    padding-left: 5px;
+                    font-size: 12px;
+                    color: #9C9C9C;
+                }
+            }
+        }
+    }
 
     footer {
         width: 100%;
