@@ -117,13 +117,11 @@ body {
                         display: inline-block;
                     
                         &:hover {
-                            border: 2px solid #888; 
-                            transform: scale(1.1);  
+                            border: 1px solid #888; 
                         }
                     }            
                     .color-radio:checked + .color-option {
-                        border: 2px solid red; 
-                        transform: scale(1.2); 
+                        border: 1px solid #131313; 
                     }
                 }
             }
@@ -140,12 +138,16 @@ body {
                     display: flex;
                     align-items: center;
                     padding-bottom: 10px;
-                }
-                
-                .upgrade-option input {
-                    height: 20px;
-                    width: 20px;
-                    padding-right: 10px;
+                               
+                    input {
+                        height: 20px;
+                        width: 20px;
+                        padding-right: 10px;
+                    }
+
+                    #chaise, #ottoman, #pillows, #sleep{
+                        accent-color: #d9d99b;
+                    }
                 }
             }
 
@@ -313,8 +315,10 @@ body {
             width: 45%;
             overflow: hidden;
             video {
-                object-fit: cover;
+                object-fit: none;
                 height: auto;
+                transform-origin: center; 
+                margin: 0% -50% 0% -50%;
             }
         }
     

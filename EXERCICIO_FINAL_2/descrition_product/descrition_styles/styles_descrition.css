@@ -101,12 +101,10 @@ body .product-container .product-details .fabric-color .color-options .color-opt
   display: inline-block;
 }
 body .product-container .product-details .fabric-color .color-options .color-option:hover {
-  border: 2px solid #888;
-  transform: scale(1.1);
+  border: 1px solid #888;
 }
 body .product-container .product-details .fabric-color .color-options .color-radio:checked + .color-option {
-  border: 2px solid red;
-  transform: scale(1.2);
+  border: 1px solid #131313;
 }
 body .product-container .product-details .upgrades {
   padding-bottom: 20px;
@@ -125,6 +123,9 @@ body .product-container .product-details .upgrades .upgrade-option input {
   height: 20px;
   width: 20px;
   padding-right: 10px;
+}
+body .product-container .product-details .upgrades .upgrade-option #chaise, body .product-container .product-details .upgrades .upgrade-option #ottoman, body .product-container .product-details .upgrades .upgrade-option #pillows, body .product-container .product-details .upgrades .upgrade-option #sleep {
+  accent-color: #d9d99b;
 }
 body .product-container .btn {
   padding: 60px 40px 20px 40px;
@@ -268,9 +269,11 @@ body .durable-section .durable-video {
   overflow: hidden;
 }
 body .durable-section .durable-video video {
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: none;
+     object-fit: none;
   height: auto;
+  transform-origin: center;
+  margin: 0% -50% 0% -50%;
 }
 body .durable-section .durable-content {
   width: 55%;
